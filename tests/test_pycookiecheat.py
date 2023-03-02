@@ -79,6 +79,7 @@ def test_raises_without_scheme() -> None:
     #     chrome_cookies("n8henrie.com")
     pass
 
+
 def test_no_cookies(ci_setup: str) -> None:
     # """Ensure that no cookies are returned for a fake url."""
     # never_been_here = "http://{0}.com".format(uuid4())
