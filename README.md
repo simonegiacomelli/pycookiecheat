@@ -36,8 +36,10 @@ Alternatively, some users have suggested running Chrome with the
 
 1. `git clone https://github.com/n8henrie/pycookiecheat.git`
 1. `cd pycookiecheat`
-1. `python3 -m venv .venv`
-1. `./.venv/bin/python -m pip install -e .[dev]`
+1. `conda-create - 3.7`
+1. `python -m pip install -e .[test]`
+1. `python -m pip install -e .[dev]`
+1. `python -m pip install -e .[testenv]`
 
 ## Usage
 
