@@ -18,6 +18,7 @@ jobs:
           - "3.10"
           - "3.11"
           - "pypy-3.8"
+      fail-fast: false
 
     env:
       TOX_TESTENV_PASSENV: "XAUTHORITY DISPLAY"
